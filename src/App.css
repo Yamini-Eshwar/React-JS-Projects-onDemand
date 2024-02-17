@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', ' Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale ;
+     overflow-x: hidden;
+}
+
+hyml{
+    overflow-x: hidden;
+}
+
+.app-container{
+    max-width:1110px;
+    margin: auto;
+}
+
+.title{
+  font-size: 24px;
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 56px;
+  text-align: center;
+  margin-top:12px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 992px){
+     .title{
+        font-size: 48px;
+        margin-top:48px;
+        margin-bottom: 48px;
+     }
+}
+
+.description{
+    color: #616e7c;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width :992px){
+    .description{
+        max-width: 730px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+.tabs-container{
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+@media screen and (min-width: 992px){
+    .tabs-container{
+        max-width: 445px;
+    }
+}
+
+.project-list-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
